@@ -1,0 +1,7 @@
+UTS
+Minimal
+1. Terdiri 3 menu
+2. Terdiri 3 form input
+3. Sistem kerja
+4. Gunakan HTML5, CSS3, JS
+

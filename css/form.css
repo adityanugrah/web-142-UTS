@@ -1,0 +1,85 @@
+body {
+font-family: Arial;
+background-color: #3498DB;
+}
+#input {
+text-align: left;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200px;
+padding: 10px 0;
+width: 380px;
+transition: border .5s;
+}
+#input:focus {
+border: 2px solid #3498DB;
+box-shadow: none;
+}
+#select {
+text-align: center;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200px;
+padding: 10px 0;
+width: 385px;
+transition: border .5s;
+text-align:center;
+}
+#select:focus {
+border: 2px solid #3498DB;
+box-shadow: none;
+}
+
+#jd{
+	font-size:18px;
+	font-style:bold;
+}
+
+#dm{
+	font-size:18px;
+	font-style:bold;
+	font-family: fixedsys, monospace;
+}
+
+#jr {
+	margin-left:30px;
+}
+
+#tm{
+	text-align: center;
+	background-color: #ECF0F1;
+	border: 2px solid transparent;
+	border-radius: 3px;
+	font-size: 16px;
+	font-weight: 200px;
+	padding: 10px 0;
+	width: 200px;
+	transition: border .5s;
+	margin-left:400px;
+}
+#tk{
+	text-align: center;
+	background-color: #ECF0F1;
+	border: 2px solid transparent;
+	border-radius: 3px;
+	font-size: 16px;
+	font-weight: 200px;
+	padding: 10px 0;
+	width: 200px;
+	transition: border .5s;
+}
+#mt{
+	text-align: center;
+	background-color: #ECF0F1;
+	border: 2px solid transparent;
+	border-radius: 3px;
+	font-size: 16px;
+	font-weight: 200px;
+	padding: 10px 0;
+	width: 190px;
+	transition: border .5s;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Daftar Online </title>
+		<link rel="stylesheet" href="http://localhost/dpweb/UTS/css/style.css" media="screen" type="text/css" />
+		<link rel="stylesheet" href="http://localhost/dpweb/UTS/css/form.css" media="screen" type="text/css" />
+	</head>
+<body>
+
+<ul id="menu">
+    <li><a href="http://localhost/dpweb/UTS/html/isi.html">Home</a></li>
+    <li>
+        <a href="#">Program Studi</a>
+        <ul>
+            <li><a href="#">S1 Sistem Informasi</a></li>
+            <li><a href="#">S1 Sistem Komputer</a></li>
+            <li><a href="#">S1 Desain Komunikasi Visual</a></li>
+			<li><a href="#">S1 Akuntansi</a></li>
+            <li><a href="#">S1 Manajemen</a></li>
+            <li><a href="#">DIV Komputer Multimedia</a></li>
+            <li><a href="#">DIII Manajamen Informatika</a></li>
+            <li><a href="#">DIII Komputerisasi Perkantoran Dan Kesekretariatan</a></li>
+        </ul>
+    </li>
+    <li><a href="http://localhost/dpweb/UTS/html/form.html">Daftar Online</a></li>
+    <li><a href="http://localhost/dpweb/UTS/html/login.html">Pengumuman</a></li>
+    <li><a href="http://localhost/dpweb/UTS/html/form4.html">Admin</a></li>
+</ul>
+	
+<form action="form2.html">
+	<fieldset>
+		<legend id="jd">Form Biodata Calon Mahasiswa</legend>
+		<table border="0" cellpadding="3" id="jr">
+			<tr>
+				<td id="jd">NIS</td>
+				<td id="jd">:</td>
+				<td><input type="tex" placeholder="Ini harus diisi" id="input" required/></td>
+				<td width=150px> </td>
+				<td id="jd">Alamat</td>
+				<td id="jd">:</td>
+				<td><input type="textarea" placeholder="Alamat" id="input" required/></td>
+			</tr>
+			<tr>
+				<td id="jd">Nama</td>
+				<td id="jd">:</td>
+				<td><input type="text" maxlength="10"  placeholder="Maksimal karakter adalah 10" id="input" required/></td>
+				<td></td>
+				<td id="jd">Kota</td>
+				<td id="jd">:</td>
+				<td>
+					<select required id="select">
+					<option></option>
+					<option value="Jakarta">Jakarta</option>
+					<option value="Surabaya">Surabaya</option>
+					<option value="Bogor">Gresik</option>
+					<option value="Depok">Depok</option>
+					<option value="Tangerang">Tangerang</option>
+					<option value="Bekasi">Bekasi</option>
+					<option value="Lamongan">Lamongan</option>
+					<option value="Bogor">Bogor</option>
+					<option value="Malang">Malang</option>
+					<option value="Yogyakarta">Yogyakarta</option>
+					<option value="Bali">Bali</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td id="jd">Jenis Kelamin</td>
+				<td id="jd">:</td>
+				<td id="jd">
+					<input type="radio" name="Laki - Laki" /> Laki - Laki
+					<input type="radio" name="Perempuan" /> Perempuan
+				</td>
+				<td></td>
+				<td id="jd">Kode Pos</td>
+				<td id="jd">:</td>
+				<td><input type="text" placeholder="Kode Pos" id="input" required/></td>
+			</tr>
+			<tr>
+				<td id="jd">Tgl Lahir</td>
+				<td id="jd">:</td>
+				<td><input type="date" placeholder="Tgl Lahir" id="input" required/></td>
+				<td></td>
+				<td id="jd">No Telp</td>
+				<td id="jd">:</td>
+				<td><input type="tel" placeholder="No Telp" id="input" required/></td>
+			</tr>
+			<tr>
+				<td id="jd">Kota Lahir</td>
+				<td id="jd">:</td>
+				<td>
+					<select required id="select">
+					<option></option>
+					<option value="Jakarta">Jakarta</option>
+					<option value="Surabaya">Surabaya</option>
+					<option value="Bogor">Bogor</option>
+					<option value="Depok">Depok</option>
+					<option value="Tangerang">Tangerang</option>
+					<option value="Bekasi">Bekasi</option>
+					</select>
+				</td>
+				<td></td>
+				<td id="jd">HP</td>
+				<td id="jd">:</td>
+				<td><input type="tel" placeholder="handphone" id="input" required/></td>
+			</tr>
+			<tr>
+				<td id="jd">Warga Negara</td>
+				<td id="jd">:</td>
+				<td>
+					<select required id="select">
+					<option></option>
+					<option value="WNI">WNI</option>
+					<option value="WNA">WNA</option>
+					<option value="WNI Keturunan">WNI Keturunan</option>
+					</select>
+				</td>
+				<td></td>
+				<td id="jd">Email</td>
+				<td id="jd">:</td>
+				<td><input type="email" placeholder="Email" id="input" required/></td>
+			</tr>
+			<tr>
+				<td colspan="7"><input type="submit" name="next" value="Selanjutnya" id="tm" />
+				<input type="reset" name="Hapus" value="Reset" id="tk" />
+				</td>
+			</tr>
+		</table>
+	</fieldset>
+</form>
+
+</body>
+</html>
